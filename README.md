@@ -30,16 +30,18 @@ Https Apply Tutorial
 <img src="https://i.imgur.com/tSlQT3W.png" height="200" />
 
 **注意: 名稱填寫好 _acme-challenge 即可，後面的網域名稱已經幫你添加好了!**
-<img src="https://i.imgur.com/WkI6XUL.png" height="200" />
+<img src="https://i.imgur.com/WkI6XUL.png" height="100" />
 
-### 4. 輸入好之後，可以回到 SSL for Free 網頁，點下 Verify _acme_challenge.<網域名稱> 的連結。如果 SSL for Free 可以成功取得 DNS 的 TXT 記錄的話，可以看到像下面的結果：
-<img src="https://i.imgur.com/JeVVgoC.png" height="200" />
+### 4. 輸入好之後，可以回到 SSL for Free 網頁，點下 Verify _acme_challenge.<網域名稱> 的連結。
+
+如果 SSL for Free 可以成功取得 DNS 的 TXT 記錄的話，可以看到像下面的結果：
+<img src="https://i.imgur.com/JeVVgoC.png" height="100" />
 
 ### 5. 驗證成功後，即可下載ssl憑證
 <img src="https://i.imgur.com/dB2nwB3.png" height="100" />
 
 ### 6. Local端下載好的ssl憑證包:
-<img src="https://i.imgur.com/lkTAWZz.png" height="200" />
+<img src="https://i.imgur.com/lkTAWZz.png" height="100" />
 
 ### 7. SSL for Free產生的憑證是 *.crt 而不是 *.pfx，然而 IIS 只能使用 *.pfx 憑證檔，所以這時候就需要透過OpenSSL軟體做轉換。
 <img src="https://i.imgur.com/cvZhCen.png" height="200" />
