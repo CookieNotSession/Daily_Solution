@@ -26,7 +26,7 @@ Https Apply Tutorial
 ### 3. 於NCTU ME的網域DNS上，加上指定的 TXT 記錄：
 <img src="https://i.imgur.com/NcBGD0h.png" height="200" />
 - 點選NCTU ME網站您申請的網域後面的DNS管理，並於TXT加入上面提到的value
-<img src="https://i.imgur.com/witvVGV.png" height="50" />
+<img src="https://i.imgur.com/witvVGV.png" height="100" />
 <img src="https://i.imgur.com/tSlQT3W.png" height="200" />
 
 **注意: 名稱填寫好 _acme-challenge 即可，後面的網域名稱已經幫你添加好了!**
@@ -36,7 +36,8 @@ Https Apply Tutorial
 <img src="https://i.imgur.com/JeVVgoC.png" height="200" />
 
 ### 5. 驗證成功後，即可下載ssl憑證
-<img src="https://i.imgur.com/dB2nwB3.png" height="200" />
+<img src="https://i.imgur.com/dB2nwB3.png" height="100" />
+
 ### 6. Local端下載好的ssl憑證包:
 <img src="https://i.imgur.com/lkTAWZz.png" height="200" />
 
