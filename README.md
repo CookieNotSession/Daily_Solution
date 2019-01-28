@@ -4,8 +4,9 @@ SSL for Free Apply and using on Windows IIS with OpenSSL Tutorial
 Https Apply Tutorial
 ===
 
-Author: 周秉楠
-參考文件: https://ephrain.net/wordpress-%E4%BD%BF%E7%94%A8-dns-%E6%89%8B%E5%8B%95%E9%A9%97%E8%AD%89%E7%9A%84%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%8F%96%E5%BE%97-ssl-for-free-%E7%9A%84-https-%E6%86%91%E8%AD%89/ 
+- Author: 周秉楠
+
+- 參考文件: https://ephrain.net/wordpress-%E4%BD%BF%E7%94%A8-dns-%E6%89%8B%E5%8B%95%E9%A9%97%E8%AD%89%E7%9A%84%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%8F%96%E5%BE%97-ssl-for-free-%E7%9A%84-https-%E6%86%91%E8%AD%89/  https://dotblogs.com.tw/supershowwei/2016/05/29/232917
 
 前言:
 ---
