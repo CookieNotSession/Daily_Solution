@@ -38,7 +38,7 @@ Https Apply Tutorial
 <img src="https://i.imgur.com/JeVVgoC.png" height="100" />
 
 ### 5. 驗證成功後，即可下載ssl憑證
-<img src="https://i.imgur.com/dB2nwB3.png" height="100" />
+<img src="https://i.imgur.com/dB2nwB3.png" height="300" />
 
 ### 6. Local端下載好的ssl憑證包:
 <img src="https://i.imgur.com/lkTAWZz.png" height="100" />
