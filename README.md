@@ -14,16 +14,16 @@ Https Apply Tutorial
 
 步驟
 ---
-1. 申請網域(Domain) : NCTU Domain
+### 1. 申請網域(Domain) : NCTU Domain
 利用nctu.me申請一個新網域
 ![](https://i.imgur.com/ZGXaDoX.png)
 
-2. 至SSL for Free網站，選擇 Manual Verification (DNS):
+### 2. 至SSL for Free網站，選擇 Manual Verification (DNS):
 ![](https://i.imgur.com/H1rlBk5.png)
 按下驗證按鈕
 ![](https://i.imgur.com/5AyyJnB.png)
 
-3. 於NCTU ME的網域DNS上，加上指定的 TXT 記錄：
+### 3. 於NCTU ME的網域DNS上，加上指定的 TXT 記錄：
 
 ![](https://i.imgur.com/NcBGD0h.png)
 點選NCTU ME網站您申請的網域後面的DNS管理，並於TXT加入上面提到的value
@@ -34,19 +34,19 @@ Https Apply Tutorial
 
 ![](https://i.imgur.com/WkI6XUL.png)
 
-4. 輸入好之後，可以回到 SSL for Free 網頁，點下 Verify _acme_challenge.<網域名稱> 的連結。如果 SSL for Free 可以成功取得 DNS 的 TXT 記錄的話，可以看到像下面的結果：
+### 4. 輸入好之後，可以回到 SSL for Free 網頁，點下 Verify _acme_challenge.<網域名稱> 的連結。如果 SSL for Free 可以成功取得 DNS 的 TXT 記錄的話，可以看到像下面的結果：
 ![](https://i.imgur.com/JeVVgoC.png)
 
-5. 驗證成功後，即可下載ssl憑證
+### 5. 驗證成功後，即可下載ssl憑證
 ![](https://i.imgur.com/dB2nwB3.png)
 
-6. Local端下載好的ssl憑證包:
+### 6. Local端下載好的ssl憑證包:
 ![](https://i.imgur.com/lkTAWZz.png)
 
-6. SSL for Free產生的憑證是 *.crt 而不是 *.pfx，然而 IIS 只能使用 *.pfx 憑證檔，所以這時候就需要透過OpenSSL軟體做轉換。
+### 6. SSL for Free產生的憑證是 *.crt 而不是 *.pfx，然而 IIS 只能使用 *.pfx 憑證檔，所以這時候就需要透過OpenSSL軟體做轉換。
 ![](https://i.imgur.com/cvZhCen.png)
 
-7. 完成OpenSSL安裝後，即可在cmd中輸入以下步驟:
+### 7. 完成OpenSSL安裝後，即可在cmd中輸入以下步驟:
 
 ``` shell
 cd C:\OpenSSL-Win32\bin
