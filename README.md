@@ -21,12 +21,16 @@ Https Apply Tutorial
 
 ### 2. 至SSL for Free網站，選擇 Manual Verification (DNS):
 <img src="https://i.imgur.com/H1rlBk5.png" height="200" />
+
 - 按下驗證按鈕
+
 <img src="https://i.imgur.com/5AyyJnB.png" height="200" />
 
 ### 3. 於NCTU ME的網域DNS上，加上指定的 TXT 記錄：
 <img src="https://i.imgur.com/NcBGD0h.png" height="200" />
+
 - 點選NCTU ME網站您申請的網域後面的DNS管理，並於TXT加入上面提到的value
+
 <img src="https://i.imgur.com/witvVGV.png" height="100" />
 <img src="https://i.imgur.com/tSlQT3W.png" height="200" />
 
@@ -35,7 +39,8 @@ Https Apply Tutorial
 
 ### 4. 輸入好之後，可以回到 SSL for Free 網頁，點下 Verify _acme_challenge.<網域名稱> 的連結。
 
-如果 SSL for Free 可以成功取得 DNS 的 TXT 記錄的話，可以看到像下面的結果：
+- 如果 SSL for Free 可以成功取得 DNS 的 TXT 記錄的話，可以看到像下面的結果：
+
 <img src="https://i.imgur.com/JeVVgoC.png" height="100" />
 
 ### 5. 驗證成功後，即可下載ssl憑證
@@ -57,5 +62,5 @@ cd C:\OpenSSL-Win32\bin
 openssl pkcs12 -export -out  C:\sslforfree\certificate.pfx -inkey  C:\sslforfree\private.key -in  C:\sslforfree\certificate.crt -certfile  C:\sslforfree\ca_bundle.crt
 
 ```
-其中會要您輸入密碼，此密碼將是在IIS匯入*.pfx憑證的密碼，因此要記住!
+- 其中會要您輸入密碼，此密碼將是在IIS匯入*.pfx憑證的密碼，因此要記住!
 
