@@ -11,7 +11,7 @@ Https Apply Tutorial
 
 Introduction
 ---
-因碩士論文撰寫的系統需打開client端的webcam，因此有webcam access需求，需要用到https，因此決定寫一篇Readme.md來紀錄自己如何於nctu.me網域上申請一個新的網域並利用SSL for Free網站來免費獲取SSL憑證，再為此新網域於Windows IIS 加上SSL憑證，來為自己的網域提供一個為期3個月的免費SSL服務。
+Because of the system in my master's thesis using webcam on the client , and the domain need to be HTTPS. So i decided to write a README.md file to record myself about how i apply a new nctu.me domain on NCTU ME website and using SSL for Free website to get the free SSL certificate , and add the certificate to IIS for 3 months expiration.
 
 Steps
 ---
