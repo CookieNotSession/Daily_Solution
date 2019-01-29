@@ -4,7 +4,7 @@ SSL for Free Apply and using on Windows IIS with OpenSSL Tutorial
 Https Apply Tutorial
 ===
 
-- Author: 周秉楠
+- Author: Kevin Chou
 
 - 參考文件: [SSL for Free教學(申請步驟教學)](https://ephrain.net/wordpress-%E4%BD%BF%E7%94%A8-dns-%E6%89%8B%E5%8B%95%E9%A9%97%E8%AD%89%E7%9A%84%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%8F%96%E5%BE%97-ssl-for-free-%E7%9A%84-https-%E6%86%91%E8%AD%89/) & [OpenSSL教學(cmd指令參考來源)](https://dotblogs.com.tw/supershowwei/2016/05/29/232917) & [IIS - 安裝 SSL 憑證 (著重於IIS繫結綁定網域設定)](https://blog.johnwu.cc/article/iis-install-ssl-certificate.html
 )
