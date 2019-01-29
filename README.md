@@ -6,8 +6,10 @@ Https Apply Tutorial
 
 - Author: 周秉楠
 
-- 參考文件: [SSL for Free教學](https://ephrain.net/wordpress-%E4%BD%BF%E7%94%A8-dns-%E6%89%8B%E5%8B%95%E9%A9%97%E8%AD%89%E7%9A%84%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%8F%96%E5%BE%97-ssl-for-free-%E7%9A%84-https-%E6%86%91%E8%AD%89/) & 
-[OpenSSL教學](https://dotblogs.com.tw/supershowwei/2016/05/29/232917)
+- 參考文件: [SSL for Free教學(申請步驟教學)](https://ephrain.net/wordpress-%E4%BD%BF%E7%94%A8-dns-%E6%89%8B%E5%8B%95%E9%A9%97%E8%AD%89%E7%9A%84%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%8F%96%E5%BE%97-ssl-for-free-%E7%9A%84-https-%E6%86%91%E8%AD%89/) & 
+[OpenSSL教學(cmd指令參考來源)](https://dotblogs.com.tw/supershowwei/2016/05/29/232917)
+[IIS - 安裝 SSL 憑證 (著重於IIS繫結綁定網域設定)](https://blog.johnwu.cc/article/iis-install-ssl-certificate.html
+)
 
 前言:
 ---
@@ -63,4 +65,18 @@ openssl pkcs12 -export -out  C:\sslforfree\certificate.pfx -inkey  C:\sslforfree
 
 ```
 - 其中會要您輸入密碼，此密碼將是在IIS匯入*.pfx憑證的密碼，因此要記住!
+### 9. 綁定Windows IIS網域
+
+**注意:點選站台中旁邊的「繫結」後，進入介面後，點選畫面中藍色的主機名稱兩下，即可進入「編輯站台繫結」模式**
+
+<img src="https://i.imgur.com/7iDIjrU.png" height="200" />
+
+編輯模式中，**「SSL憑證」選項**若為「未選取」，請改為「cookiechou.nctu.me」(您的網域名稱)
+<img src="https://i.imgur.com/jquLI2U.png" height="200" />
+(圖片來源: https://blog.johnwu.cc/article/iis-install-ssl-certificate.html )
+
+### 10. 成功設定https，即可使用webcam access等服務!
+
+<img src="https://i.imgur.com/dL8MOB1.png" height="200" />
+
 
