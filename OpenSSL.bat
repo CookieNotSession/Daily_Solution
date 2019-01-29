@@ -1,5 +1,5 @@
-c:\
-cd c:\Program files\IIS Express
-start iisexpress /path:"C:\FormsAdmin.Site" /port:8088 /clr:v2.0
-start http://localhost:8088/default.aspx
+C:\
+cd C:\OpenSSL-Win32\bin
+start openssl pkcs12 -export -out  C:\sslforfree\certificate.pfx -inkey  C:\sslforfree\private.key -in  C:\sslforfree\certificate.crt -certfile  
 pause
+ECHO finish
