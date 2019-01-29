@@ -16,7 +16,8 @@ Because of the system in my master's thesis using webcam on the client , and the
 Steps
 ---
 ### 1. Apply a Domain: NCTU ME
-- 利用nctu.me申請一個新網域
+
+- apply a new domain on ncut me:
 <img src="https://i.imgur.com/ZGXaDoX.png" height="200" />
 
 ### 2. Go to "SSL for Free", and choose "Manual Verification (DNS)"
@@ -29,7 +30,7 @@ Steps
 ### 3. Add a TXT record on DNS of NCTU ME Domain 
 <img src="https://i.imgur.com/NcBGD0h.png" height="200" />
 
-- 點選NCTU ME網站您申請的網域後面的DNS管理，並於TXT加入上面提到的value
+- click the DNS Management behind the NCTU ME web , and add value to the TXT. 
 
 <img src="https://i.imgur.com/witvVGV.png" height="100" />
 <img src="https://i.imgur.com/tSlQT3W.png" height="200" />
