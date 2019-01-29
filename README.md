@@ -9,11 +9,11 @@ Https Apply Tutorial
 - 參考文件: [SSL for Free教學(申請步驟教學)](https://ephrain.net/wordpress-%E4%BD%BF%E7%94%A8-dns-%E6%89%8B%E5%8B%95%E9%A9%97%E8%AD%89%E7%9A%84%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%8F%96%E5%BE%97-ssl-for-free-%E7%9A%84-https-%E6%86%91%E8%AD%89/) & [OpenSSL教學(cmd指令參考來源)](https://dotblogs.com.tw/supershowwei/2016/05/29/232917) & [IIS - 安裝 SSL 憑證 (著重於IIS繫結綁定網域設定)](https://blog.johnwu.cc/article/iis-install-ssl-certificate.html
 )
 
-前言:
+Introduction
 ---
-此篇主要紀錄如何於NCTU ME上申請一個新網域並為此網域於Windows IIS 加上SSL憑證。
+因碩士論文撰寫的系統需打開client端的webcam，因此有webcam access需求，需要用到https，因此決定寫一篇Readme.md來紀錄自己如何於nctu.me網域上申請一個新的網域並利用SSL for Free網站來免費獲取SSL憑證，再為此新網域於Windows IIS 加上SSL憑證，來為自己的網域提供一個為期3個月的免費SSL服務。
 
-步驟
+Steps
 ---
 ### 1. 申請網域(Domain) : NCTU Domain
 - 利用nctu.me申請一個新網域
