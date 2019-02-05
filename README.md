@@ -1,5 +1,5 @@
 # Computer Life Solution
-Some life computer problem solution or tutorial to share you guys! 
+Some life computer problem solution or tutorial. 
 
 ## Introduction
 This repo recorded some life stuff about computer  , like the SSL certificate of https application or Video decode format problem solution , etc.
