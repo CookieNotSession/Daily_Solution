@@ -48,3 +48,21 @@ root.find("div", class_="title")
 root.find_all("div", class_="title")
 # 抓到所有符合條件的tag
 ```
+
+Dowload Image
+---
+
+Reference: [Introduction to Web Scraping (Python) - Lesson 04 (Download Images)](https://www.youtube.com/watch?v=m_agcM_ds1c)
+
+```python
+soup = make_soup('https://google.com')
+for img in soup.findAll('img'):
+    temp = img.get('src')
+```
+
+```python
+imagefile = open(filename + ".jpeg","wb")
+imagefile.write(urllib.request.urlopen(image).read())
+image.close()
+```
+
