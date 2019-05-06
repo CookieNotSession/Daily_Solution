@@ -167,4 +167,13 @@ openssl pkcs12 -export -out  C:\sslforfree\certificate.pfx -inkey  C:\sslforfree
 <img src="https://i.imgur.com/dL8MOB1.png" width="200" />
 
 
+2019/05/06 更新:
+---
+
+## 容易忘記的步驟:
+
+### 1. 在申請SSLforFree的DNS時，要先到NCTU.NE(DNS)將TXT內容更新，且名稱直接寫_acme-challenge.即可(後面因為原本就有cookiechou.nctu.me網域名稱因此不用再加)
+### 2. 申請後，解壓縮後的zip包，直接放到C:/ (因為上面的openssl的cmd指令是以C槽為預設)
+### 3. 直接打開cmd(這次是使用anaconda prompt cmd)，而不是打開openssl.bat或openssl軟體!!! 直接用cd切換至Openssl位置後，輸入轉檔指令，即可取得轉檔。
+### 4. 在IIS新增憑證後，要記得到編輯站台繫結那裏更新資料! 不然網站是不會更新新的憑證的~
 
