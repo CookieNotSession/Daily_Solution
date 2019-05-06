@@ -21,7 +21,7 @@ Steps
 <img src="https://i.imgur.com/ZGXaDoX.png" height="200" />
 
 ### 2. Go to NCTU.ME Manage the DNS TXT
-<img scr="https://i.imgur.com/x3rqcuf.png height="200" />
+<img scr="https://i.imgur.com/x3rqcuf.png" height="200" />
 
 ### 2. Go to "SSL for Free", and choose "Manual Verification (DNS)"
 <img src="https://i.imgur.com/H1rlBk5.png" height="200" />
@@ -59,6 +59,7 @@ Steps
 
 ### 8. Download the OpenSSL software , and type the command below in your windows cmd
 
+**注意: 這裡使用的是cmd(anaconda cmd promt)
 ``` shell
 cd C:\OpenSSL-Win32\bin
 ```
